@@ -1,0 +1,111 @@
+
+.title {
+    padding-bottom: 50px;
+}
+
+.hero__person-wrapper {
+    width: 100%;
+    max-width: 728px;
+}
+
+.hero__text {
+    width: 100%;
+    max-width: 677px;
+}
+
+.hero__person-wrapper .hero__person-block {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.title {
+    padding-bottom: 45px;
+}
+
+.hero__person-wrapper .hero__person-block {
+    margin-bottom: 59px;
+}
+
+.hero__person-wrapper .hero__person-block:hover img {
+    border: solid 7px #25beda;
+}
+
+.hero__text {
+    margin-top: 26px;
+    line-height: 21px;
+    margin-left: 5px;
+}
+
+.hero__person-wrapper {
+    margin-top: 117px;
+}
+
+.container {
+    max-width: 860px;
+}
+
+.hero__person-wrapper .hero__person-block {
+    width: 177px;
+}
+
+.hero__person-wrapper .hero__person-block .hero__person-position {
+    margin-top: 10px;
+}
+
+.hero__person-wrapper .hero__person-block .hero__person-text {
+    width: 144px;
+    margin-top: 12px;
+}
+
+.hero__person-wrapper .hero__person-block .hero__person-links {
+    margin-top: 10px;
+    font-size: 13px;
+    width: 100%;
+    max-width: 135px;
+}
+
+.hero__person-wrapper .hero__person-block img {
+    margin-left: 0;
+    padding: 3px;
+    position: relative;
+    left: -7px;
+    border: solid 7px transparent;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    margin-bottom: 21px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #bcbcbc;
+}
+
+.hero__person-subtitle {
+    font-weight: bold;
+    font-size: 21px;
+    text-transform: none;
+    margin-top: 1px;
+    width: 100%;
+    max-width: 110px;
+    line-height: 26px;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.hero__person-links a {
+    color: #579bbf;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+.hero__person-links a:hover {
+    color: #25beda;
+}
+
+
+
+
+
+
+
+
