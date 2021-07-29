@@ -38,6 +38,14 @@
     font-weight:800;
     font-display: swap;
 }
+@font-face {
+    font-family: PTSerifPro-Demi;
+    src: url("../fonts/PTSerifPro-Demi.woff2"),
+    url("../fonts/PTSerifPro-Demi.woff");
+    font-style: normal;
+    font-weight:400;
+    font-display: swap;
+}
 
 @font-face {
     font-family: "MyriadProRegular";
