@@ -17,14 +17,14 @@
     position: absolute
     bottom: 80px !important
 
-    .swiper-pagination-bullet
-      width: 10px
-      height: 10px
-      opacity: 0.5
-      background-color: white
-      margin-right: 12px !important
-    .swiper-pagination-bullet-active
-      opacity: .7
+    //.swiper-pagination-bullet
+    //  width: 10px
+    //  height: 10px
+    //  opacity: 0.5
+    //  background-color: white
+    //  margin-right: 12px !important
+    //.swiper-pagination-bullet-active
+    //  opacity: .7
 
 
 
@@ -46,5 +46,61 @@
     left: 18px
     top: 202px
     z-index: 10
+
+.gallery-2__swiper-container
+  max-width: 880px
+  width: 100%
+  .swiper-wrapper
+    .swiper-slide
+      .gallery-2__slider-inner
+        width: 880px
+        height: 567px
+        display: flex
+        img
+          height: auto
+          width: 100%
+          object-fit: cover
+  .swiper-prev, .swiper-next
+    position: absolute
+    cursor: pointer
+    top: 40%
+    z-index: 10
+    opacity: .5
+    left: 20px
+  .swiper-next
+    left: auto
+    right: 20px
+  .swiper-pagination
+    position: absolute
+    bottom: 80px !important
+
+.swiper-container
+  .swiper-pagination
+    .swiper-pagination-bullet
+      width: 10px
+      height: 10px
+      opacity: 0.5
+      background-color: white
+      margin-right: 12px !important
+    .swiper-pagination-bullet-active
+      opacity: .7
+.gallery-7__swiper-container
+  max-width: 454px
+  width: 100%
+  .swiper-wrapper
+    .swiper-slide
+      .gallery-7__slider-inner
+        display: flex
+        .img-gallery
+          width: 200px
+
+
+
+
+
+
+
+
+
 
 
