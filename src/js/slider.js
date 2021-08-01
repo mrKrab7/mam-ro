@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper-container', {
+const gallery1Slider = new Swiper('.gallery-1__swiper-container', {
     // Optional parameters
     loop: true,
 
@@ -9,10 +9,31 @@ const swiper = new Swiper('.swiper-container', {
 
     // Navigation arrows
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+
     },
 
     // And if we need scrollbar
 
-});
+})
+const gallery2Slider = new Swiper('.gallery-2__swiper-container', {
+    // Optional parameters
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+
+    },
+
+    // And if we need scrollbar
+
+})
+
