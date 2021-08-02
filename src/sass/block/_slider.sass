@@ -87,12 +87,43 @@
 .gallery-7__swiper-container
   max-width: 454px
   width: 100%
+  .swiper-prev, .swiper-next
+    position: absolute
+    cursor: pointer
+    top: 30%
+    z-index: 10
+    opacity: .5
+    left: 20px
+  .swiper-next
+    left: auto
+    right: 20px
   .swiper-wrapper
     .swiper-slide
+      .gallery-7__wrapper-img
+        a
+          img
+            height: 346px
+
       .gallery-7__slider-inner
         display: flex
         .img-gallery
-          width: 200px
+          width: 100%
+          object-fit: cover
+          height: 346px
+  .swiper-pagination
+    margin-bottom: 100px
+
+.gallery-8__swiper-container
+  max-width: 771px
+  width: 100%
+
+  .swiper-wrapper
+
+
+
+
+
+
 
 
 
