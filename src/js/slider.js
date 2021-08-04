@@ -117,6 +117,28 @@ const gallery8Slider = new Swiper('.gallery-20__swiper-container', {
         nextEl: '.swiper-next',
     },
 })
+const gallery9Slider = new Swiper('.gallery-21__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+
+const gallery10Slider = new Swiper('.gallery-22__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+
 
 
 
