@@ -75,4 +75,49 @@ const gallery4Slider = new Swiper('.gallery-8__swiper-container', {
 
 })
 
+const gallery5Slider = new Swiper('.gallery-9__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+
+const gallery6Slider = new Swiper('.gallery-15__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+
+const gallery7Slider = new Swiper('.gallery-19__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+const gallery8Slider = new Swiper('.gallery-20__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+
+
+
 
