@@ -42,15 +42,13 @@
 
   .swiper-wrapper
     .swiper-slide
-      .gallery-2__slider-inner
-        width: 880px
-        height: 567px
-        display: flex
+      .gallery__wrapper-img
+        a
+          img
+            object-fit: cover
+            height: 567px
+            width: 100%
 
-        img
-          height: auto
-          width: 100%
-          object-fit: cover
 
   .swiper-prev, .swiper-next
     position: absolute
@@ -69,6 +67,10 @@
     bottom: 80px !important
 
 .swiper-container
+  .swiper-prev, .swiper-next
+    width: 39px
+    height: 64px
+
   .swiper-pagination
     .swiper-pagination-bullet
       width: 10px
@@ -89,8 +91,9 @@
     cursor: pointer
     top: 30%
     z-index: 10
-    opacity: .5
+    opacity: .7
     left: 20px
+
 
   .swiper-next
     left: auto
@@ -98,16 +101,17 @@
 
   .swiper-wrapper
     .swiper-slide
-      .gallery-7__wrapper-img
+      .gallery__wrapper-img
         a
           img
+            width: 100%
             height: 346px
+            object-fit: cover
+
 
       .gallery-7__text-side
         margin-top: 0
 
-      .gallery-7__slider-inner
-        display: flex
 
         .img-gallery
           width: 100%
@@ -126,8 +130,11 @@
     cursor: pointer
     top: 35%
     z-index: 10
-    opacity: .5
+    opacity: .7
     left: 20px
+    width: 39px
+    height: 64px
+
 
   .swiper-next
     left: auto
@@ -138,18 +145,13 @@
 
   .swiper-wrapper
     .swiper-slide
-      .gallery-8__slider-inner
-        display: flex
-
-        .gallery__wrapper-img
-          margin-bottom: 0
-
-      .gallery-8__wrapper-img
+      .gallery__wrapper-img
         a
           img
-            height: 435px
             width: 100%
+            height: 435px
             object-fit: cover
+
 
 .gallery-9__swiper-container
   max-width: 705px
@@ -163,7 +165,7 @@
     cursor: pointer
     top: 35%
     z-index: 10
-    opacity: .5
+    opacity: .7
     left: 20px
 
   .swiper-next
@@ -188,19 +190,22 @@
 .gallery-15__swiper-container
   max-width: 353px
   width: 100%
+
   .swiper-prev, .swiper-next
     position: absolute
     cursor: pointer
     top: 30%
     z-index: 10
-    opacity: .5
+    opacity: .7
     left: 20px
 
   .swiper-next
     left: auto
     right: 20px
+
   .swiper-pagination
-    margin-bottom: 50px
+    margin-bottom: 80px
+
   .swiper-wrapper
     .swiper-slide
       .gallery__wrapper-img
@@ -213,17 +218,21 @@
 .gallery-19__swiper-container
   max-width: 720px
   width: 100%
+
   .swiper-wrapper
     .swiper-slide
       .gallery__wrapper-img
         margin-bottom: 0
+
         a
           img
             height: 534px
             object-fit: cover
             width: 100%
+
       .gallery-19__slider-inner
         display: flex
+
   .swiper-prev, .swiper-next
     position: absolute
     cursor: pointer
@@ -235,21 +244,25 @@
   .swiper-next
     left: auto
     right: 20px
+
   .swiper-pagination
     margin-bottom: 75px
 
 .gallery-20__swiper-container
   max-width: 708px
   width: 100%
+
   .swiper-wrapper
     .swiper-slide
       .gallery__wrapper-img
         margin-bottom: 0
+
         a
           img
             height: 534px
             object-fit: cover
             width: 100%
+
   .swiper-prev, .swiper-next
     position: absolute
     cursor: pointer
@@ -261,22 +274,26 @@
   .swiper-next
     left: auto
     right: 20px
+
   .swiper-pagination
     margin-bottom: 75px
 
 .gallery-21__swiper-container
   max-width: 441px
   width: 100%
+
   .swiper-wrapper
     .swiper-slide
       .gallery__wrapper-img
 
         margin-bottom: 0
+
         a
           img
             height: 302px
             object-fit: cover
             width: 100%
+
   .swiper-prev, .swiper-next
     position: absolute
     cursor: pointer
@@ -288,24 +305,25 @@
   .swiper-next
     left: auto
     right: 20px
+
   .swiper-pagination
     margin-bottom: 100px
 
 .gallery-22__swiper-container
   max-width: 536px
   width: 100%
+
   .swiper-wrapper
     .swiper-slide
-      .gallery-22__slider-inner
-        display: flex
       .gallery__wrapper-img
 
-        margin-bottom: 0
+
         a
           img
             height: 449px
             object-fit: cover
             width: 100%
+
   .swiper-prev, .swiper-next
     position: absolute
     cursor: pointer
@@ -317,8 +335,295 @@
   .swiper-next
     left: auto
     right: 20px
+
   .swiper-pagination
     margin-bottom: 100px
+
+.gallery-24__swiper-container
+  max-width: 658px
+  width: 100%
+
+  .swiper-wrapper
+    .swiper-slide
+      .gallery__wrapper-img
+        a
+          img
+            height: 428px
+            object-fit: cover
+            width: 100%
+
+  .swiper-prev, .swiper-next
+    position: absolute
+    cursor: pointer
+    top: 30%
+    z-index: 10
+    opacity: .5
+    left: 20px
+
+  .swiper-next
+    left: auto
+    right: 20px
+
+  .swiper-pagination
+    margin-bottom: 70px
+
+.gallery-25__swiper-container
+  max-width: 660px
+  width: 100%
+
+  .swiper-wrapper
+    .swiper-slide
+      .gallery__wrapper-img
+        a
+          img
+            height: 443px
+            object-fit: cover
+            width: 100%
+
+  .swiper-prev, .swiper-next
+    position: absolute
+    cursor: pointer
+    top: 35%
+    z-index: 10
+    opacity: .7
+    left: 20px
+
+  .swiper-next
+    left: auto
+    right: 20px
+
+  .swiper-pagination
+    margin-bottom: 50px
+
+.gallery-27__swiper-container
+  max-width: 656px
+  width: 100%
+
+  .swiper-wrapper
+    .swiper-slide
+      .gallery__wrapper-img
+        a
+          img
+            height: 478px
+            object-fit: cover
+            width: 100%
+
+  .swiper-prev, .swiper-next
+    position: absolute
+    cursor: pointer
+    top: 40%
+    z-index: 10
+    opacity: .7
+    left: 20px
+
+  .swiper-next
+    left: auto
+    right: 20px
+
+  .swiper-pagination
+    margin-bottom: 50px
+
+.gallery-29__swiper-container
+  max-width: 721px
+  width: 100%
+
+  .swiper-wrapper
+    .swiper-slide
+      .gallery__wrapper-img
+
+        a
+          img
+            height: 528px
+            object-fit: cover
+            width: 100%
+
+  .swiper-prev, .swiper-next
+    position: absolute
+    cursor: pointer
+    top: 35%
+    z-index: 10
+    opacity: .7
+    left: 20px
+
+  .swiper-next
+    left: auto
+    right: 20px
+
+  .swiper-pagination
+    margin-bottom: 50px
+
+.gallery-32__swiper-container
+  max-width: 734px
+  width: 100%
+
+  .swiper-wrapper
+    .swiper-slide
+      .gallery__wrapper-img
+
+        a
+          img
+            height: 489px
+            object-fit: cover
+            width: 734px
+
+  .swiper-prev, .swiper-next
+    position: absolute
+    cursor: pointer
+    top: 35%
+    z-index: 10
+    opacity: .7
+    left: 20px
+
+  .swiper-next
+    left: auto
+    right: 20px
+
+  .swiper-pagination
+    margin-bottom: 50px
+
+
+.gallery-35__swiper-container
+  max-width: 577px
+  width: 100%
+
+  .swiper-wrapper
+    .swiper-slide
+      .gallery__wrapper-img
+
+        a
+          img
+            height: 458px
+            object-fit: cover
+            width: 100%
+
+  .swiper-prev, .swiper-next
+    position: absolute
+    cursor: pointer
+    top: 35%
+    z-index: 10
+    opacity: .7
+    left: 20px
+
+  .swiper-next
+    left: auto
+    right: 20px
+
+  .swiper-pagination
+    margin-bottom: 50px
+
+.gallery-35-2__swiper-container
+  max-width: 709px
+  width: 100%
+
+  .swiper-wrapper
+    .swiper-slide
+      .gallery__wrapper-img
+
+        a
+          img
+            height: 451px
+            object-fit: cover
+            width: 100%
+
+  .swiper-prev, .swiper-next
+    position: absolute
+    cursor: pointer
+    top: 35%
+    z-index: 10
+    opacity: .7
+    left: 20px
+
+  .swiper-next
+    left: auto
+    right: 20px
+
+  .swiper-pagination
+    margin-bottom: 50px
+
+.gallery-48__swiper-container
+  max-width: 408px
+  width: 100%
+
+  .swiper-wrapper
+    .swiper-slide
+      .gallery__wrapper-img
+        a
+          img
+            height: 323px
+            object-fit: cover
+            width: 100%
+
+  .swiper-prev, .swiper-next
+    position: absolute
+    cursor: pointer
+    top: 35%
+    z-index: 10
+    opacity: .7
+    left: 20px
+
+  .swiper-next
+    left: auto
+    right: 20px
+
+  .swiper-pagination
+    margin-bottom: 50px
+
+.gallery-50__swiper-container
+  max-width: 792px
+  width: 100%
+
+  .swiper-wrapper
+    .swiper-slide
+      .gallery__wrapper-img
+        a
+          img
+            height: 548px
+            object-fit: cover
+            width: 100%
+
+  .swiper-prev, .swiper-next
+    position: absolute
+    cursor: pointer
+    top: 40%
+    z-index: 10
+    opacity: .7
+    left: 20px
+
+  .swiper-next
+    left: auto
+    right: 20px
+
+  .swiper-pagination
+    margin-bottom: 50px
+
+.gallery-49__swiper-container
+  max-width: 698px
+  width: 100%
+
+  .swiper-wrapper
+    .swiper-slide
+      .gallery__wrapper-img
+        a
+          img
+            height: 466px
+            object-fit: cover
+            width: 100%
+
+  .swiper-prev, .swiper-next
+    position: absolute
+    cursor: pointer
+    top: 40%
+    z-index: 10
+    opacity: .7
+    left: 20px
+
+  .swiper-next
+    left: auto
+    right: 20px
+
+  .swiper-pagination
+    margin-bottom: 50px
+
 
 
 

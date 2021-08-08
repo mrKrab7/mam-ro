@@ -138,6 +138,107 @@ const gallery10Slider = new Swiper('.gallery-22__swiper-container', {
         nextEl: '.swiper-next',
     },
 })
+const gallery11Slider = new Swiper('.gallery-24__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+const gallery12Slider = new Swiper('.gallery-25__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+const gallery13Slider = new Swiper('.gallery-27__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+
+const gallery14Slider = new Swiper('.gallery-29__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+
+const gallery15Slider = new Swiper('.gallery-32__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+
+const gallery16Slider = new Swiper('.gallery-35-2__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+
+const gallery17Slider = new Swiper('.gallery-48__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+const gallery18Slider = new Swiper('.gallery-50__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+const gallery19Slider = new Swiper('.gallery-49__swiper-container', {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    navigation: {
+        prevEl: '.swiper-prev',
+        nextEl: '.swiper-next',
+    },
+})
+
+
+
+
+
+
+
 
 
 
